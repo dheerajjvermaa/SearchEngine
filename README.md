@@ -17,20 +17,20 @@ AI_Intern_Assignment/
 ├── requirements.txt     # Project dependencies
 └── README.md            # Project documentation
 ```
-##🧠 Design Choices
-###Embedding Model:
+## 🧠 Design Choices
+### Embedding Model:
 
 Selected sentence-transformers/all-MiniLM-L6-v2 as recommended in the assignment.
 
 Reasoning: It provides a perfect balance of speed and semantic accuracy for CPU-based environments compared to heavier BERT models.
 
-###Vector Index:
+### Vector Index:
 
 Used FAISS (IndexFlatIP).
 
 Reasoning: We normalize embeddings before indexing, making Inner Product (IP) equivalent to Cosine Similarity, which is the standard metric for semantic textual similarity.
 
-###Caching Mechanism:
+### Caching Mechanism:
 
 Implemented using SQLite.
 
