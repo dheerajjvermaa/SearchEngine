@@ -1,6 +1,9 @@
-# SearchEngine
+# Multi-document Embedding Search Engine
 
+This project implements a lightweight embedding-based search engine capable of indexing text documents, caching embeddings to avoid redundant computation, and performing efficient vector similarity searches.
 
+## 📂 Folder Structure
+The project follows a modular structure as required:
 
 ```
 AI_Intern_Assignment/
