@@ -1,0 +1,5 @@
+data/
+*.db
+*.pkl
+*.faiss
+__pycache__/
